@@ -1,10 +1,8 @@
 {
-  "category": "UNDEAD",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/draugr",
     "maintainers": [
       {
@@ -18,421 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "draugr",
     "name": "Draugr",
-    "aliases": [
-      {
-        "name": "Draug",
-        "language": "Old Norse",
-        "region": "Scandinavia"
-      },
-      {
-        "name": "Aptrgangr",
-        "language": "Old Norse",
-        "region": "Iceland",
-        "meaning": "again-walker, one who walks after death"
-      },
-      {
-        "name": "Haugbui",
-        "language": "Old Norse",
-        "region": "Scandinavia",
-        "meaning": "mound-dweller"
-      }
-    ],
+    "aliases": [],
     "category": "UNDEAD",
-    "subcategory": "Corporeal Revenant",
+    "subcategory": "Burial Mound Guardian",
     "tags": [
-      "norse",
-      "undead",
-      "corporeal",
-      "guardian",
-      "shape-shifter",
-      "viking",
-      "burial-mound",
-      "supernatural-strength"
+      "folklore",
+      "mythology"
     ],
-    "status": "historical_folklore",
+    "status": "documented",
     "description": {
-      "summary": "Norse undead creature, an animated corpse with supernatural powers including superhuman strength, increased size, and shape-shifting. Guards treasure in burial mounds and kills intruders.",
-      "full": "The Draugr is a corporeal undead creature from Norse mythology and Icelandic sagas, distinguished from ghosts by its physical, animated body. Characterized by superhuman strength, the ability to increase in size, and a blackish or dark appearance, draugr guard their burial mounds and treasure hoards with jealous ferocity. They possess various supernatural powers including shape-shifting, immunity to normal weapons, driving people mad, and occasionally prophecy. Draugr emit a distinctive smell of decay and can be defeated through beheading, burning, or heroic combat. They retain their personality from life, often displaying greed, violence, and malevolence."
+      "summary": "The Draugr is a corporeal undead creature from Norse mythology and Icelandic sagas, distinguished from ghosts by its physical, animated body.",
+      "full": "The Draugr is a corporeal undead creature from Norse mythology and Icelandic sagas, distinguished from ghosts by its physical, animated body. Characterized by superhuman strength, the ability to increase dramatically in size, and a blackish or dark appearance, draugr guard their burial mounds and treasure hoards with jealous, murderous ferocity. These are not mindless zombies—draugr retain their personality and intelligence from life, often displaying the same greed, violence, and malevolence that characterized them as living men. They possess various supernatural powers including shape-shifting, immunity to normal weapons, the ability to drive people mad, and occasionally prophecy. Draugr emit a distinctive smell of decay and death that announces their presence. They can be defeated through beheading, burning the body, or heroic combat by warriors of great strength and courage. The sagas are filled with accounts of heroes battling these formidable undead guardians."
     },
     "etymology": {
-      "origin": "Old Norse 'draugr', possibly related to 'draugr' meaning 'ghost' or from 'drjúgr' meaning 'lasting'",
-      "meaning": "Undead, ghost, revenant, after-goer",
-      "first_use": "Viking Age sagas and poetry"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "UNDEAD",
-      "type": "Corporeal Revenant",
-      "subtype": "Burial Mound Guardian",
-      "variant": "Norse"
+      "type": "Burial Mound Guardian",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "vampires",
-        "name": "Vampires",
-        "relationship": "similar",
-        "description": "Corporeal undead with supernatural powers, different cultural origins"
-      },
-      {
-        "id": "ghosts",
-        "name": "Ghosts",
-        "relationship": "related",
-        "description": "Non-corporeal spirits of the dead, less physical"
-      },
-      {
-        "id": "zombies",
-        "name": "Zombies",
-        "relationship": "similar",
-        "description": "Animated corpses, but draugr retain intelligence and powers"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 1.8,
-        "max": 4.0,
-        "unit": "meters",
-        "confidence": "medium",
-        "notes": "Can increase in size, becoming much larger than in life"
-      },
-      "weight": {
-        "min": 100,
-        "max": 500,
-        "unit": "kilograms",
-        "confidence": "low",
-        "notes": "Becomes unnaturally heavy"
-      },
-      "coloration": [
-        "blackish color",
-        "dark blue-black",
-        "death-pale",
-        "corpse-like"
-      ],
-      "features": [
-        {
-          "feature": "Corpse appearance",
-          "description": "Appears as animated corpse, showing signs of death and decay",
-          "frequency": "always"
-        },
-        {
-          "feature": "Increased size",
-          "description": "Can swell to massive proportions, larger than in life",
-          "frequency": "common"
-        },
-        {
-          "feature": "Dark coloration",
-          "description": "Skin turns black, blue-black, or deathly pale",
-          "frequency": "always"
-        },
-        {
-          "feature": "Superhuman strength",
-          "description": "Possesses strength far beyond mortal capability",
-          "frequency": "always"
-        },
-        {
-          "feature": "Death smell",
-          "description": "Emits strong odor of decay and death",
-          "frequency": "always"
-        },
-        {
-          "feature": "Glowing eyes",
-          "description": "Eyes may glow or appear supernatural",
-          "frequency": "occasional"
-        }
-      ],
-      "morphology": "Appears as animated corpse with physical body. Can increase dramatically in size and weight. Shows signs of death but remains mobile and dangerous."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Superhuman strength",
-        "description": "Possesses strength far exceeding mortal men",
-        "frequency": "always",
-        "evidence_level": "saga_accounts"
-      },
-      {
-        "ability": "Size increase",
-        "description": "Can swell to enormous size, becoming massive",
-        "frequency": "common",
-        "evidence_level": "saga_accounts"
-      },
-      {
-        "ability": "Shape-shifting",
-        "description": "Can transform into animals or take other forms",
-        "frequency": "common",
-        "evidence_level": "saga_accounts"
-      },
-      {
-        "ability": "Weapon immunity",
-        "description": "Some draugr are immune to normal weapons",
-        "frequency": "occasional",
-        "evidence_level": "saga_accounts"
-      },
-      {
-        "ability": "Driving mad",
-        "description": "Can cause madness or death through supernatural presence",
-        "frequency": "occasional",
-        "evidence_level": "saga_accounts"
-      },
-      {
-        "ability": "Prophecy",
-        "description": "May foretell future events or speak in verse",
-        "frequency": "rare",
-        "evidence_level": "saga_accounts"
-      },
-      {
-        "ability": "Weather control",
-        "description": "Some accounts suggest ability to affect weather",
-        "frequency": "rare",
-        "evidence_level": "saga_accounts"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "malevolent",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "burial mounds",
-        "grave sites",
-        "treasure hoards",
-        "ancestral halls"
-      ],
-      "diet": "Not applicable (undead, though some accounts suggest blood drinking)",
-      "patterns": [
-        "Guards burial mound and treasure jealously",
-        "Kills intruders to burial site",
-        "Retains personality and grudges from life",
-        "May haunt those who wronged them in life",
-        "Territorial about grave goods",
-        "Sometimes leaves mound to terrorize living"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Throughout Norse and Scandinavian regions, particularly Iceland, Norway, Sweden, and Denmark during Viking Age and medieval period.",
-      "continents": ["Europe"],
-      "countries": ["Iceland", "Norway", "Sweden", "Denmark", "Faroe Islands"],
-      "regions": [
-        "Icelandic highlands",
-        "Norwegian fjords",
-        "Swedish burial mounds",
-        "Danish landscapes"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Viking Age",
+        "date": "Unknown",
         "circa": true,
-        "source": "Norse sagas and poetry"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Viking Age (793-1066)",
-          "description": "Height of draugr beliefs and saga accounts"
-        },
-        {
-          "period": "Medieval Iceland",
-          "description": "Extensive saga documentation"
-        }
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Norse beliefs about the dead, improper burial, and the power of greed beyond death. Related to Viking Age burial practices and beliefs about the afterlife.",
-      "earliest_accounts": "Viking Age oral traditions, later recorded in Icelandic sagas",
-      "folklore_connections": "Connected to broader Norse beliefs about death, burial, and the supernatural. Related to concepts of the restless dead across cultures."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Viking Age (793-1066)",
-        "event": "Draugr beliefs in Norse culture",
-        "significance": "Active belief in undead guardians of burial mounds",
-        "source": "Archaeological evidence and later saga accounts"
-      },
-      {
-        "date": "13th century",
-        "event": "Grettis Saga composed",
-        "significance": "Famous account of Glámr the draugr",
-        "source": "Icelandic saga literature"
-      },
-      {
-        "date": "13th-14th century",
-        "event": "Eyrbyggja Saga and others",
-        "significance": "Multiple saga accounts of draugr encounters",
-        "source": "Saga literature"
-      },
-      {
-        "date": "Medieval period",
-        "event": "Christianization influence",
-        "significance": "Draugr beliefs persist but reinterpreted through Christian lens",
-        "source": "Church records and literature"
-      },
-      {
-        "date": "20th-21st century",
-        "event": "Modern popular culture revival",
-        "significance": "Draugr in fantasy literature, games (Skyrim), and Norse cultural revival",
-        "source": "Contemporary media"
-      }
-    ],
-    "modern_era": "Draugr have experienced significant revival in modern popular culture, particularly through video games like Skyrim, fantasy literature, and renewed interest in Norse mythology."
+    "timeline": []
   },
-
-  "notable_accounts": [
-    {
-      "name": "Glámr the Draugr",
-      "source": "Grettis Saga",
-      "date": "13th century account of earlier events",
-      "description": "Shepherd Glámr dies and returns as powerful draugr, terrorizing region until defeated by hero Grettir in famous battle",
-      "significance": "Most famous draugr account in saga literature"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    {
-      "name": "Hrapp of Hrappsey",
-      "source": "Laxdæla Saga",
-      "description": "Evil man who promises to cause trouble after death, becomes draugr haunting his farm",
-      "significance": "Example of personality continuing after death"
-    },
-    {
-      "name": "Thorolf Twist-Foot",
-      "source": "Eyrbyggja Saga",
-      "description": "Man buried improperly becomes draugr, must be reburied to stop hauntings",
-      "significance": "Illustrates importance of proper burial"
-    }
-  ],
-
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Proper burial rites to prevent draugr creation",
-        "Stone doors on burial mounds",
-        "Beheading and burning of dangerous dead",
-        "Burial with possessions to satisfy the dead",
-        "Christian burial to prevent rising"
-      ],
-      "stories": [
-        "Heroes battling draugr for treasure",
-        "Greedy men returning as draugr",
-        "Improper burials leading to hauntings",
-        "Methods of defeating the undead"
-      ],
-      "beliefs": "Draugr represent the danger of greed, improper burial, and evil nature continuing beyond death. They enforce proper treatment of the dead."
-    },
-    "indigenous": {
-      "cultures": [
-        "Norse",
-        "Icelandic",
-        "Norwegian",
-        "Swedish",
-        "Danish"
-      ],
-      "significance": "Central to Norse understanding of death and proper burial. Reflects Viking Age beliefs about the power of the dead and importance of proper rites.",
-      "sensitivity_note": "Part of historical Norse cultural heritage, actively studied and preserved in modern Scandinavia.",
-      "respect_guidelines": "Recognize as important historical belief system and cultural tradition. Understand significance to Norse cultural identity."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Norse sagas (Grettis Saga, Eyrbyggja Saga, etc.)",
-        "Modern fantasy literature",
-        "Horror fiction adaptations"
-      ],
-      "film_tv": [
-        "Viking-themed films and series",
-        "Horror adaptations"
-      ],
-      "games": [
-        "The Elder Scrolls V: Skyrim (prominent draugr enemies)",
-        "Dungeons & Dragons adaptations",
-        "Various Norse mythology games"
-      ],
-      "other": [
-        "Norse cultural festivals",
-        "Historical reenactment",
-        "Metal music imagery"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "defeat_methods": {
-    "traditional_methods": [
-      {
-        "method": "Beheading",
-        "description": "Decapitate the draugr and place head by buttocks",
-        "effectiveness": "high"
-      },
-      {
-        "method": "Burning",
-        "description": "Burn the body to ashes and scatter or bury at sea",
-        "effectiveness": "high"
-      },
-      {
-        "method": "Heroic combat",
-        "description": "Defeat in physical combat by hero of great strength",
-        "effectiveness": "medium"
-      },
-      {
-        "method": "Proper burial",
-        "description": "Move body to proper burial location with correct rites",
-        "effectiveness": "medium"
-      },
-      {
-        "method": "Staking through heart",
-        "description": "Drive stake through the corpse",
-        "effectiveness": "medium"
-      }
-    ]
-  },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Various saga authors",
-        "affiliation": "Medieval Icelandic scribes",
-        "contribution": "Recorded draugr accounts in saga literature",
-        "period": "13th-14th century"
-      },
-      {
-        "name": "Modern saga scholars",
-        "affiliation": "Various universities",
-        "contribution": "Analysis of draugr in Norse literature and culture",
-        "period": "19th-21st century"
-      }
-    ],
-    "ongoing_studies": "Contemporary research focuses on saga literature analysis, Norse belief systems, comparative mythology, and cultural significance."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "grettis-saga",
-      "type": "saga",
-      "title": "Grettis Saga",
-      "publication": "Various translations",
-      "date": "13th century"
-    },
-    {
-      "id": "eyrbyggja-saga",
-      "type": "saga",
-      "title": "Eyrbyggja Saga",
-      "publication": "Various translations",
-      "date": "13th century"
-    },
-    {
-      "id": "lecouteux-2009",
-      "type": "book",
-      "title": "The Return of the Dead: Ghosts, Ancestors, and the Transparent Veil of the Pagan Mind",
-      "authors": ["Claude Lecouteux"],
-      "publication": "Inner Traditions",
-      "date": "2009",
-      "isbn": "978-1594773181"
-    }
-  ]
+  "sources": []
 }
